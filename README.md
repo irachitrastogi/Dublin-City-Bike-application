@@ -18,4 +18,9 @@
 - So, what I did was researched to get the closest distance from the location of sensor and the location of the different bike station. 
 - I this I was used the “Haversine formula” algorithm to determine the same. This formula ignores the hills that the path fly over. This is the given formula used:
  
-<img>
+**<img width="268" alt="Screenshot 2019-11-22 at 7 59 00 PM" src="https://user-images.githubusercontent.com/22388218/80224089-dbc30a00-8666-11ea-9391-9525b8c6352b.png">**    <img width="244" alt="Screenshot 2019-11-22 at 7 32 16 PM" src="https://user-images.githubusercontent.com/22388218/80224373-3b211a00-8667-11ea-987c-da1ba3edb7e9.png">    <img width="251" alt="Screenshot 2019-11-22 at 7 50 10 PM" src="https://user-images.githubusercontent.com/22388218/80224475-5be96f80-8667-11ea-8bf2-c78ab0f64f07.png">
+
+
+- This is used to get find the closest bike station that is there from the location shared from the sensor. The algorithms gives us the result.
+- Then the closest station is being  gathered after the result of shortest distance.
+
