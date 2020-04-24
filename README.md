@@ -24,3 +24,6 @@
 - This is used to get find the closest bike station that is there from the location shared from the sensor. The algorithms gives us the result.
 - Then the closest station is being  gathered after the result of shortest distance.
 
+**The primary and the secondary features used:**
+
+<img width="490" alt="Picture 1" src="https://user-images.githubusercontent.com/22388218/80225506-cc44c080-8668-11ea-80fb-e57cab284a5c.png">
