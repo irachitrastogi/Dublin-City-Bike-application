@@ -27,3 +27,12 @@
 **The primary and the secondary features used:**
 
 <img width="490" alt="Picture 1" src="https://user-images.githubusercontent.com/22388218/80225506-cc44c080-8668-11ea-80fb-e57cab284a5c.png">
+
+
+**How to run the code: **
+
+1) To run the application, just download and install the APK(DublinBikes.apk) that is attached in the folder to your mobile application.
+2)After installation, please go the the settings and give permission to the application to use the GPS. This is required as we need to share the Latitude and Longitude to the server for further processing. 
+3) Find the application by the name ‘’acceleator’ on your phone. 
+4) Open the app which will then give you your nearest Dublin bike station.  
+5) Click on the button to get the location of the station form your position. 
