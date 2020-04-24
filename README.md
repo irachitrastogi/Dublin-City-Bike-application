@@ -10,3 +10,12 @@
 - I then had to change my sensor from and then choose to integrate GPS location to get the nearest bike station application.
 
 **Data Fusion and Data Analysis:**
+ - The motivation of building this application came from the trouble which I was facing while searching for the nearest bike docking station. I am a consistent user of Dublin bikes and since I am new to Dublin, I always faced this issues. So, I thought of developing a small application to solve this issue. 
+- So, for this task I got the real time GPS location from the mobile sensor. This gave me the two values that is the latitude and the longitude. 
+- I then moved this to the server and was gathering the data at a csv file. At the server, I got the Dublin bikes information by calling an API from the path : “https://developer.jcdecaux.com/#/login”. 
+- This API helped me in gathering all the details of station which included the latitude and the longitude of the bike station as well. 
+- Now, I had both the open data and the data from the server. And I had all the flexibility to play with the same as it was on cloud and I gathered it in real time.
+- So, what I did was researched to get the closest distance from the location of sensor and the location of the different bike station. 
+- I this I was used the “Haversine formula” algorithm to determine the same. This formula ignores the hills that the path fly over. This is the given formula used:
+ 
+<img>
