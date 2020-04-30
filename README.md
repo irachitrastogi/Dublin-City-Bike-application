@@ -36,3 +36,8 @@
 3) Find the application by the name ‘’acceleator’ on your phone. 
 4) Open the app which will then give you your nearest Dublin bike station.  
 5) Click on the button to get the location of the station form your position. 
+**Note:**
+- You need to get your own Google Api Key to render maps. 
+- Folllow the steps from the link : https://developers.google.com/maps/documentation/javascript/get-api-key 
+- Add the key to the file "googleMapServer.html" in line number: 97
+
